@@ -6,7 +6,7 @@ volumes:
 
 services:
     web:
-        image: tophant/arl:latest
+        image: ki9mu/arl-ki9mu:v1.1
         container_name: arl_web
         restart: unless-stopped
         depends_on:
@@ -27,7 +27,7 @@ services:
           - TZ=Asia/Shanghai
 
     worker:
-        image: tophant/arl:latest
+        image: ki9mu/arl-ki9mu:v1.1
         container_name: arl_worker
         restart: unless-stopped
         depends_on:
@@ -44,7 +44,7 @@ services:
           - TZ=Asia/Shanghai
 
     scheduler:
-      image: tophant/arl:latest
+      image: ki9mu/arl-ki9mu:v1.1
       container_name: arl_scheduler
       restart: unless-stopped
       depends_on:
