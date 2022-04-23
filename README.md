@@ -1,7 +1,7 @@
 # ARL-plus-docker
 基于(https://github.com/TophantTechnology/ARL/)
 
-# 食用方式
+# 使用方式
 进入之前的docker目录
 docker-compose down
 
