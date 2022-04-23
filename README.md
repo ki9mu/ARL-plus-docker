@@ -2,8 +2,8 @@
 基于(https://github.com/TophantTechnology/ARL/)
 
 # 使用方式
-进入之前的docker目录
-docker-compose down
+进入之前的arl/docker目录
+```docker-compose down```
 
 # 新增功能
 ## 新增OneForAll
