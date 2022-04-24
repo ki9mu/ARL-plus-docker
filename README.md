@@ -8,7 +8,7 @@
 然后在该目录下
 ```docker-compose up -d```
 
-进入OneForAll修改配置文件
+修改OneForAll配置文件
 
 # 新增功能
 ### 新增OneForAll √
