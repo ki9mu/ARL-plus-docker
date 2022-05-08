@@ -19,6 +19,9 @@
 
 # V2.6
 **新增oneforall文件夹，后续直接修改配置文件无需进入容器**
+
 **前端页面修改，增加oneforall配置选项**
+
 **增加oneforall进度颜色**
+
 **删除部分oneforall日志**
