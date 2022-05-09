@@ -9,6 +9,7 @@
 ```docker-compose up -d```
 
 修改OneForAll配置文件
+
 使用中央数据库需要外联站点，私聊我加ip白名单
 
 # 新增功能
