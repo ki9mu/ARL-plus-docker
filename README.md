@@ -15,6 +15,7 @@
 ![image](https://user-images.githubusercontent.com/47977616/167526875-0d944261-7bed-4918-936e-38c195ce7f42.png)
 ### 新增中央数据库 √
 使用中央数据库需要外联站点，私聊我加ip白名单，否则该功能无法使用
+
 ![image](https://user-images.githubusercontent.com/47977616/167527042-0598791e-6fe8-49e6-b363-a8a040d2cf1d.png)
 
 ### 智能子域名优化 √
