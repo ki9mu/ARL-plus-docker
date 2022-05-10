@@ -16,7 +16,8 @@
 ### 新增OneForAll √
 ![image](https://user-images.githubusercontent.com/47977616/167526875-0d944261-7bed-4918-936e-38c195ce7f42.png)
 ### 新增中央数据库 √
-![image](https://user-images.githubusercontent.com/47977616/167526940-3c866e4d-0c5c-46e8-a375-901c9afdce9b.png)
+![image](https://user-images.githubusercontent.com/47977616/167527042-0598791e-6fe8-49e6-b363-a8a040d2cf1d.png)
+
 ### 智能子域名优化 √
 改了下altDNS
 ### POC数量 X
