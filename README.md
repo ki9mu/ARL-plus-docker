@@ -30,6 +30,10 @@ Q: 如何确定自己是否在中央数据库白名单里
 
 A: 随便开启一个域名的扫描，看`DB-GET-Subdomains: 123`和`DB-Update-Subdomains: 123`两个属性是否比较大，第一个一般是3位数，如果个位数说明数据库连接失败了。
 
+Q: 如何添加中央数据库白名单
+
+A: 邮件发送ip给ki9mu@qq.com即可
+
 Q: 如何使用OneForAll
 
 A: 文件目录下有个oneforall-config文件夹，修改其中配置即可
@@ -37,3 +41,5 @@ A: 文件目录下有个oneforall-config文件夹，修改其中配置即可
 Q: 为什么扫描aaa.abc.com会出现bbb.abc.com
 
 A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com，介意的话关闭OneForAll模块即可
+
+
