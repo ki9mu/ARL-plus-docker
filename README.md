@@ -1,7 +1,7 @@
 # ARL-plus-docker
 基于(https://github.com/TophantTechnology/ARL/)
 
-# 使用方式
+# 原版更新方式
 进入原版的arl/docker目录，删除原版容器，直接删除即可，数据是存放在volume里，会直接更新到新版
 ```docker-compose down```
 
@@ -9,6 +9,11 @@
 ```docker-compose up -d```
 
 修改OneForAll相关配置文件
+
+# 新版更新方式
+到本项目路径下`git pull`
+
+然后```docker-compose up -d```
 
 # 新增功能
 ### 新增OneForAll √
