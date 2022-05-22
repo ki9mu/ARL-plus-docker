@@ -10,19 +10,19 @@ relative_directory = pathlib.Path(__file__).parent.parent  # OneForAll代码相�
 data_storage_dir = relative_directory.joinpath('data')  # 数据存放目录
 
 # OneForAll入口参数设置
-enable_check_version = True  # 开启最新版本检查
-enable_brute_module = True  # 使用爆破模块(默认True)
-enable_dns_resolve = True  # 使用DNS解析子域(默认True)
-enable_http_request = True  # 使用HTTP请求子域(默认True)
-enable_finder_module = True  # 开启finder模块,开启会从响应体和JS中再次发现子域(默认True)
-enable_altdns_module = True  # 开启altdns模块,开启会利用置换技术重组子域再次发现新子域(默认True)
+enable_check_version = False  # 开启最新版本检查
+enable_brute_module = False  # 使用爆破模块(默认True)
+enable_dns_resolve = False  # 使用DNS解析子域(默认True)
+enable_http_request = False  # 使用HTTP请求子域(默认True)
+enable_finder_module = False  # 开启finder模块,开启会从响应体和JS中再次发现子域(默认True)
+enable_altdns_module = False  # 开启altdns模块,开启会利用置换技术重组子域再次发现新子域(默认True)
 enable_cdn_check = True  # 开启cdn检查模块(默认True)
-enable_banner_identify = True  # 开启WEB指纹识别模块(默认True)
+enable_banner_identify = False  # 开启WEB指纹识别模块(默认True)
 enable_takeover_check = False  # 开启子域接管风险检查(默认False)
 # HTTP请求子域的端口范围 参数可选值有 'small', 'medium', 'large'
-http_request_port = 'small'  # 请求端口范围(默认 'small'，表示请求子域的80,443端口)
+http_request_port = 'medium'  # 请求端口范围(默认 'small'，表示请求子域的80,443端口)
 # 参数可选值True，False分别表示导出存活，全部子域结果
-result_export_alive = False  # 只导出存活的子域结果(默认False)
+result_export_alive = True  # 只导出存活的子域结果(默认False)
 result_save_format = 'csv'  # 子域结果保存文件格式(默认csv)
 # 参数path默认None使用OneForAll结果目录自动生成路径
 result_save_path = None  # 子域结果保存文件路径(默认None)
@@ -36,7 +36,7 @@ enable_partial_module = []  # 启用部分收集模块 必须禁用enable_all_mo
 #                          ('modules.search', 'baidu')]
 
 # 爆破模块设置
-brute_concurrent_num = 2000  # 爆破时并发查询数量(默认2000，最大推荐10000)
+brute_concurrent_num = 3000  # 爆破时并发查询数量(默认2000，最大推荐10000)
 # 爆破所使用的字典路径(默认None则使用data/subdomains.txt，自定义字典请使用绝对路径)
 brute_wordlist_path = None
 enable_recursive_brute = False  # 是否使用递归爆破(默认False)
