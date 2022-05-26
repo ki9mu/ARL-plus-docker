@@ -50,5 +50,5 @@ A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com�
 
 
 # 交流
-![fccd276477ef7003aa65fc12762b8c7](https://user-images.githubusercontent.com/47977616/170407877-121b75f4-7bba-4eb2-84dd-c27f8eb140eb.jpg)
+![image](https://user-images.githubusercontent.com/47977616/170407944-dc8585b1-b39a-47cd-ac15-b5cea3c8a74e.png)
 
