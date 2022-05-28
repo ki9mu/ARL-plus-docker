@@ -47,6 +47,9 @@ Q: 为什么扫描aaa.abc.com会出现bbb.abc.com
 
 A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com，介意的话关闭OneForAll模块即可
 
+Q: 任务为什么有时候会卡死
+
+A: 多种原因。可以看下当前目录下arl_web.log/arl_worker.log日志文件是否过大，删除容器及日志文件重新拉取项目。启用oneforall的时候可能导致该问题。低配置服务器运行也可能导致该问题(本人是4c4g基本正常使用)
 
 
 # 交流
