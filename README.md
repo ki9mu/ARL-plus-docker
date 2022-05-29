@@ -45,7 +45,7 @@ A: 文件目录下有个oneforall-config文件夹，修改其中配置即可
 
 Q: 为什么扫描aaa.abc.com会出现bbb.abc.com
 
-A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com，介意的话关闭OneForAll模块即可
+A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com，介意的话关闭OneForAll模块即可（目前对oneforall结果进行了过滤，已无该bug）
 
 Q: 任务为什么有时候会卡死
 
