@@ -1,4 +1,4 @@
-enable = False
+enable = True
 
 # 模块API配置
 # Censys可以免费注册获取API：https://censys.io/api
