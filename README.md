@@ -53,5 +53,4 @@ A: 多种原因。可以看下当前目录下arl_web.log/arl_worker.log日志文
 
 
 # 交流
-![1654143861(1)](https://user-images.githubusercontent.com/47977616/171552697-12fa85ec-c5df-4d5c-b9a8-f3974dc230d2.png)
-
+![1654789952(1)](https://user-images.githubusercontent.com/47977616/172890876-4ca69b4b-62ac-43db-a667-888991aa159c.png)
