@@ -50,7 +50,3 @@ A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com�
 Q: 任务为什么有时候会卡死
 
 A: 多种原因。可以看下当前目录下arl_web.log/arl_worker.log日志文件是否过大，删除容器及日志文件重新拉取项目。启用oneforall的时候可能导致该问题。低配置服务器运行也可能导致该问题(本人是4c4g基本正常使用)
-
-
-# 交流
-![1654789952(1)](https://user-images.githubusercontent.com/47977616/172890876-4ca69b4b-62ac-43db-a667-888991aa159c.png)
