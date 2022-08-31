@@ -1,3 +1,6 @@
+# 中央数据库暂时停用
+# 等待新版本发布后重新提交申请即可
+
 # ARL-plus-docker
 基于(https://github.com/TophantTechnology/ARL/)
 
