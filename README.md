@@ -1,6 +1,7 @@
 # ARL-plus-docker
 基于(https://github.com/TophantTechnology/ARL/)
 
+(新版本正在写，敬请关注)
 # 2.8.0版本以后无oneforall，如需要oneforall可以使用之前的版本
 
 # 原版更新方式
