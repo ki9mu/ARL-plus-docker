@@ -18,3 +18,6 @@ vim config.yaml
 
 # 写在最后
 n久没写了，几乎重写，难顶
+
+# 团队微信
+![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
