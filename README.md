@@ -7,14 +7,14 @@ ARL的安装这里就不多赘述了，可以看这里 https://github.com/ki9mu/
 
 # 新增功能
 1. 中央数据库，上传子域名数据，或拉取子域名数据
-2. 修改了rabbitmq的超时事件，可能重型任务不会挂？（实测4c8g跑qq.com，跑了1个月都没挂，最终跑完了，如果还挂应该是服务器配置不行，加钱解决一切问题）
+2. 修改了rabbitmq的超时时间，可能重型任务不会挂？（实测4c8g跑qq.com，跑了1个月都没挂，最终跑完了，如果还挂应该是服务器配置不行，加钱解决一切问题）
 3. 没了...(有需求提issue，视情况开发)
 
 # 中央数据库介绍
 默认关闭
 开启方式：
 ```
-vim config.yaml
+vim config-docker.yaml
 # 最底部的center_option设置为true即可，默认为false
 # 如果有不想上传的扫描，可以在扫描前设置为false，执行docker-compose restart重启容器，扫描完成后再改回true并重启容器即可。
 ```
