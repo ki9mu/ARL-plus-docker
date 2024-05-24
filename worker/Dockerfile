@@ -8,11 +8,11 @@ RUN python3.6 -m ensurepip --default-pip
 
 RUN pip3.6 install pip --upgrade
 
-RUN rpm -vhU https://nmap.org/dist/nmap-7.80-1.x86_64.rpm
+RUN rpm -vhU https://nmap.org/dist/nmap-7.93-1.x86_64.rpm
 
 RUN yum install python36-devel gcc-c++ -y
 
-RUN yum install nginx -y
+RUN yum install nginx unzip wget -y
 
 COPY app/ app/
 
@@ -55,5 +55,27 @@ RUN pip3.6 install -r requirements.txt
 WORKDIR /opt/ARL-NPoC/
 RUN pip3.6 install -r requirements.txt
 
+
+# 定义nuclei版本
+ARG NUCLEI_VERSION=3.2.4
+
+# 安装nuclei
+RUN wget "https://github.com/projectdiscovery/nuclei/releases/download/v${NUCLEI_VERSION}/nuclei_${NUCLEI_VERSION}_linux_amd64.zip" \
+    && unzip "nuclei_${NUCLEI_VERSION}_linux_amd64.zip" nuclei \
+    && mv nuclei /usr/bin/ \
+    && rm -f "nuclei_${NUCLEI_VERSION}_linux_amd64.zip"
+
+# 运行nuclei
+RUN nuclei -ut
+
+## 安装 WIH
+RUN wget https://github.com/1c3z/arl_files/raw/master/wih/wih_linux_amd64 -O /usr/bin/wih && chmod +x /usr/bin/wih
+RUN wih --version
+
 ## 切换工作目录
 WORKDIR /code
+
+## 自测一下
+RUN cp app/config.yaml.example app/config.yaml
+RUN env FLASK_APP=app.main:arl_app python3.6 -m flask routes
+RUN python3 -m app.celerytask

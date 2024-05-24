@@ -1,51 +1,26 @@
 # ARL-plus-docker
-基于(https://github.com/TophantTechnology/ARL/)
+基于ARL-V2.6.2版本自研
+ARL的安装这里就不多赘述了，可以看这里 https://github.com/ki9mu/ARL-plus-docker/blob/dev/ARL-README.md
 
-(新版本正在写，敬请关注)
-# 2.8.0版本以后无oneforall，如需要oneforall可以使用之前的版本
-
-# 原版更新方式
-进入原版的arl/docker目录，删除原版容器，直接删除即可，数据是存放在volume里，会直接更新到新版
-```docker-compose down```
-
-然后拉取本项目，启用即可
-```docker-compose up -d```
-
-修改OneForAll相关配置文件
-
-# 新版更新方式
-到本项目路径下`git pull`
-
-然后```docker-compose up -d```
+# 免责声明
+如果您下载、安装、使用、修改本系统及相关代码，即表明您信任本系统。在使用本系统时造成对您自己或他人任何形式的损失和伤害，我们不承担任何责任。 如您在使用本系统的过程中存在任何非法行为，您需自行承担相应后果，我们将不承担任何法律及连带责任。 请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款，并选择接受或不接受。 除非您已阅读并接受本协议所有条款，否则您无权下载、安装或使用本系统。您的下载、安装、使用等行为即视为您已阅读并同意上述协议的约束。
 
 # 新增功能
-### 新增OneForAll √
-![image](https://user-images.githubusercontent.com/47977616/167526875-0d944261-7bed-4918-936e-38c195ce7f42.png)
-### 新增中央数据库 √
-使用中央数据库需要外联站点，私聊我加ip白名单，否则该功能无法使用
+1. 中央数据库，上传子域名数据，或拉取子域名数据
+2. 修改了rabbitmq的超时时间，可能重型任务不会挂？（实测4c8g跑qq.com，跑了1个月都没挂，最终跑完了，如果还挂应该是服务器配置不行，加钱解决一切问题）
+3. 没了...(有需求提issue，视情况开发)
 
-![image](https://user-images.githubusercontent.com/47977616/167527042-0598791e-6fe8-49e6-b363-a8a040d2cf1d.png)
+# 中央数据库介绍
+默认关闭
+开启方式：
+```
+vim config-docker.yaml
+# 最底部的center_option设置为true即可，默认为false
+# 如果有不想上传的扫描，可以在扫描前设置为false，执行docker-compose restart重启容器，扫描完成后再改回true并重启容器即可。
+```
 
-### 智能子域名优化 √
-改了下altDNS
+# 写在最后
+n久没写了，几乎重写，难顶
 
-# Q&A
-Q: 什么是中央数据库
-
-A: A设备对域名abc.com扫描，发现了子域名aaa.abc.com，会将aaa子域名上传至中央数据库。B设备在进行子域名爆破的时候，会拉取中央数据库中的子域。如果同时也在扫描abc.com，基本子域名不会遗漏。（为啥加这个功能，我发现ARL很多次扫描子域结果都不太一样，也不知道是咋回事，变多还可以理解，变少就不应该吧）
-
-Q: 如何确定自己是否在中央数据库白名单里
-
-A: 随便开启一个域名的扫描，看`domain_brute: 300`属性是否比较大，一般是几百，如果个位数或者十几秒就结束了，说明数据库连接失败了。
-
-Q: 如何使用OneForAll
-
-A: 文件目录下有个oneforall-config文件夹，修改其中配置即可
-
-Q: 为什么扫描aaa.abc.com会出现bbb.abc.com
-
-A: 因为OneForAll的API接口设置，输入aaa.abc.com会有响应bbb.abc.com，介意的话关闭OneForAll模块即可（目前对oneforall结果进行了过滤，已无该bug）
-
-Q: 任务为什么有时候会卡死
-
-A: 多种原因。可以看下当前目录下arl_web.log/arl_worker.log日志文件是否过大，删除容器及日志文件重新拉取项目。启用oneforall的时候可能导致该问题。低配置服务器运行也可能导致该问题(本人是4c4g基本正常使用)
+# 团队微信
+![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
