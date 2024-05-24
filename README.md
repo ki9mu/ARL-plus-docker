@@ -15,3 +15,6 @@
 vim config.yaml
 # 最底部的center_option设置为true即可，默认为false
 ```
+
+# 写在最后
+n久没写了，几乎重写，难顶
