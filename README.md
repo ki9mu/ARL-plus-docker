@@ -24,3 +24,6 @@ n久没写了，几乎重写，难顶
 
 # 团队微信
 ![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
+
+# 闲聊群
+![bf6d5d9ff15e0a98366ea95c1b78232](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/9754b519-7e53-41f6-ac1d-cefc78f7cf9d)
