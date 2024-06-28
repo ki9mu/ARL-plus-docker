@@ -11,6 +11,20 @@ ARL的安装这里就不多赘述了，可以看这里 https://github.com/ki9mu/
 3. 没了...(有需求提issue，视情况开发)
 4. 新版本功能开发中（敬请期待）
 
+# 安装方式
+首次安装：
+```
+docker volume create arl_db
+```
+更新安装
+```
+docker-compose down
+docker-compose up -d
+```
+PS:
+由于近期dockerHub问题，现将相关镜像放到网盘，可解压为.tar文件后执行`docker load -i xxx.tar`即可部署，可在公众号回复`ARL-plus`获取地址
+
+
 # 中央数据库介绍
 默认关闭
 开启方式：
