@@ -57,6 +57,7 @@ vim docker-compose.yml
 
 # 指纹上传
 指纹文件：
+https://github.com/ki9mu/ARL-plus-docker/blob/main/finger.json
 ![image](https://github.com/user-attachments/assets/3c7bc0e2-094e-41b3-b69d-002de605ab4e)
 
 
