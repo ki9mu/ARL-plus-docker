@@ -46,8 +46,8 @@ n久没写了，几乎重写，难顶
 
 # 服务器推荐
 推荐腾讯云或京东云的4C8G 5M以上的配置，目前性价比最高的是京东云的4C8G 518/年（可以将任务改成3或者4），也可以买腾讯云68/年的2C2G（任务改成1）
-[京东云]
-[腾讯云]
+** [京东云]
+** [腾讯云]
 更改方式
 ```
 vim docker-compose.yml
@@ -60,5 +60,5 @@ vim docker-compose.yml
 ![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
 
 
-[京东云快捷方式]: https://3.cn/-22ITTEy
+[京东云]: https://3.cn/-22ITTEy
 [腾讯云]: https://cloud.tencent.com/act/cps/redirect?redirect=5333&cps_key=488ad3cc44ae37630a493f684f3dc296&from=console
