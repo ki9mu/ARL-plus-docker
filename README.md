@@ -44,6 +44,21 @@ n久没写了，几乎重写，难顶
 1. 挂代理
 2. 使用代理服务器拉取镜像，然后打包成压缩包，并上传
 
+# 服务器推荐
+推荐腾讯云或京东云的4C8G 5M以上的配置，目前性价比最高的是京东云的4C8G 518/年（可以将任务改成3或者4），也可以买腾讯云68/年的2C2G（任务改成1）
+[京东云]
+[腾讯云]
+更改方式
+```
+vim docker-compose.yml
+找到arltask -c 2，这里的-c参数就是任务并行数量，通常这个值是cpu核心数-1
+```
+![image](https://github.com/user-attachments/assets/891bfa62-d130-4e1b-a269-678fc8659bcd)
+
 
 # 团队微信
 ![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
+
+
+[京东云快捷方式]: https://3.cn/-22ITTEy
+[腾讯云]: https://cloud.tencent.com/act/cps/redirect?redirect=5333&cps_key=488ad3cc44ae37630a493f684f3dc296&from=console
