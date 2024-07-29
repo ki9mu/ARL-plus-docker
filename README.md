@@ -68,6 +68,7 @@ https://github.com/ki9mu/ARL-plus-docker/blob/main/finger.json
 1. 子域名模块增加，目前在内部版实测域名发现增加30%以上，扫qq.com域名能达到1.7w+
 2. 个人使用的POC放出
 3. 实测发现ARL会出现相当一部分丢包情况，一定程度缓解丢包问题
+4. 其他（其他对于提升能力的需求我会视情况采纳，对于交互UI等问题应该不太会考虑...）
 
 
 [京东云活动地址]: https://3.cn/-22ITTEy
