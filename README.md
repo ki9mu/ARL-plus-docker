@@ -64,6 +64,11 @@ https://github.com/ki9mu/ARL-plus-docker/blob/main/finger.json
 # 团队微信
 ![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
 
+# TODO
+1、子域名模块增加，目前在内部版实测域名发现增加30%以上，扫qq.com域名能达到1.7w+
+2、个人使用的POC放出
+3、实测发现ARL会出现相当一部分丢包情况，一定程度缓解丢包问题
+
 
 [京东云活动地址]: https://3.cn/-22ITTEy
 [腾讯云活动地址]: https://cloud.tencent.com/act/cps/redirect?redirect=5333&cps_key=488ad3cc44ae37630a493f684f3dc296&from=console
