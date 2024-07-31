@@ -70,6 +70,10 @@ https://github.com/ki9mu/ARL-plus-docker/blob/main/finger.json
 3. 实测发现ARL会出现相当一部分丢包情况，一定程度缓解丢包问题
 4. 其他（其他对于提升能力的需求我会视情况采纳，对于交互UI等问题应该不太会考虑...）
 
+# Q&A
+执行`docker logs [容器名]`即可看到相关日志
+如果内容为xxx permission 等，可能是开启了SELinux，关闭SELiunx即可
+
 
 [京东云活动地址]: https://3.cn/-22ITTEy
 [腾讯云活动地址]: https://cloud.tencent.com/act/cps/redirect?redirect=5333&cps_key=488ad3cc44ae37630a493f684f3dc296&from=console
