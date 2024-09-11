@@ -24,6 +24,8 @@ docker-compose up -d
 PS:
 由于近期dockerHub问题，现将相关镜像放到网盘，可解压为.tar文件后执行`docker load -i xxx.tar`即可部署，可在公众号回复`ARL-plus`获取地址
 
+# 分布式安装方式
+参考文章： https://mp.weixin.qq.com/s/0q4WLmVWGW6VQpZnRx9EUA
 
 # 中央数据库介绍
 默认关闭
