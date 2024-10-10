@@ -13,7 +13,8 @@ ARL的安装这里就不多赘述了，可以看这里 https://github.com/ki9mu/
 5. 降低nmap丢包问题
 6. 更改文件泄露错误异常的判断，随机化，绕过waf和NIDS检测等
 7. 增加文件泄露扫描发现字典项数
-8. 没了...(有需求提issue，视情况开发)
+8. 放出自用POC
+9. 没了...(有需求提issue，视情况开发)
 
 # 安装方式
 首次安装：
@@ -40,15 +41,13 @@ vim config-docker.yaml
 # 如果有不想上传的扫描，可以在扫描前设置为false，执行docker-compose restart重启容器，扫描完成后再改回true并重启容器即可。
 ```
 
-# 写在最后
-n久没写了，几乎重写，难顶
-
 # 如果拉取镜像失败
 
 原因：GWF懂得都懂
 解决方法：
 1. 挂代理
 2. 使用代理服务器拉取镜像，然后打包成压缩包，并上传
+3. 公众号回复plus获取网盘下载地址
 
 # 服务器推荐
 推荐腾讯云或京东云的4C8G 5M以上的配置
@@ -73,11 +72,6 @@ https://github.com/ki9mu/ARL-plus-docker/blob/main/finger.json
 # 团队微信
 ![b4fd06ae7fb4d6a977754f3077c7274](https://github.com/ki9mu/ARL-plus-docker/assets/47977616/48ec6b67-dcaa-4f59-b845-b3d3ede31eda)
 
-# TODO
-1. 子域名模块增加，目前在内部版实测域名发现增加30%以上，扫qq.com域名能达到1.7w+
-2. 个人使用的POC放出
-3. 实测发现ARL会出现相当一部分丢包情况，一定程度缓解丢包问题
-4. 其他（其他对于提升能力的需求我会视情况采纳，对于交互UI等问题应该不太会考虑...）
 
 # Q&A
 执行`docker logs [容器名]`即可看到相关日志
