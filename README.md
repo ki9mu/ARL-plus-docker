@@ -51,7 +51,9 @@ n久没写了，几乎重写，难顶
 2. 使用代理服务器拉取镜像，然后打包成压缩包，并上传
 
 # 服务器推荐
-推荐腾讯云或京东云的4C8G 5M以上的配置，目前性价比最高的是 华为云4c8g 368一年 ~~京东云的4C8G 518/年（可以将任务改成3或者4）~~，也可以买腾讯云68/年的2C2G（任务改成1）
+推荐腾讯云或京东云的4C8G 5M以上的配置
+**[服务器推荐地址] **
+
 [华为云活动地址]
 [京东云活动地址]
 [腾讯云活动地址]
@@ -85,3 +87,5 @@ https://github.com/ki9mu/ARL-plus-docker/blob/main/finger.json
 [京东云活动地址]: https://3.cn/-22ITTEy
 [腾讯云活动地址]: https://cloud.tencent.com/act/cps/redirect?redirect=5333&cps_key=488ad3cc44ae37630a493f684f3dc296&from=console
 [华为云活动地址]: https://activity.huaweicloud.com/cps.html?fromacct=2343fcae-6eea-4fc8-9bb9-228ade578237&utm_source=V1g3MDY4NTY=&utm_medium=cps&utm_campaign=201905
+
+[服务器推荐地址]: https://docs.qq.com/sheet/DZUFIQmxZSGJjY1RK?tab=BB08J2&_t=1728576431874
