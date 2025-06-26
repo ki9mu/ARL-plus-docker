@@ -71,10 +71,11 @@ vim docker-compose.yml
 
 
 # Q&A
-1、报错进不了页面
+1. 报错进不了页面
 执行`docker logs [容器名]`即可看到相关日志
 如果内容为xxx permission 等，可能是开启了SELinux，关闭SELiunx即可
-2、新建项目报错
+
+2. 新建项目报错
 摸摸钱包鼓不鼓，看看日志是不是这种原因
 ![image](https://github.com/user-attachments/assets/4abfb257-3e8e-4387-8350-9daaa117666a)
 
