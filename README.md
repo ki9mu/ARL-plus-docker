@@ -78,6 +78,8 @@ vim docker-compose.yml
 2. 新建项目报错
 摸摸钱包鼓不鼓，看看日志是不是这种原因
 ![image](https://github.com/user-attachments/assets/4abfb257-3e8e-4387-8350-9daaa117666a)
+![fe952ce8b5ce0e01ea08c0440b9c49da](https://github.com/user-attachments/assets/fcf95fda-298c-448b-93e4-006137bfb76a)
+![fe952ce8b5ce0e01ea08c0440b9c49da](https://github.com/user-attachments/assets/fcf95fda-298c-448b-93e4-006137bfb76a)
 
 
 [京东云活动地址]: https://3.cn/-22ITTEy
